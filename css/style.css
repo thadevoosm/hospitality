@@ -7,3 +7,19 @@ body{
 .bg-body-tertiary{
     --bs-bg-opacity: 0 !important;
 }
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end !important;
+}
+.navbar-nav{
+    left: 40px;
+    position: relative;
+}
+@media (max-width: 576px){
+    .navbar-nav{
+        left: 0px;
+        position: static;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: center !important;
+    }
+}
