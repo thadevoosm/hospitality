@@ -1,0 +1,6 @@
+User-Agent: *
+
+
+User-Agent: Googlebot
+
+sitemap: www.http://www.hospitalitys.net/sitemap.xml
