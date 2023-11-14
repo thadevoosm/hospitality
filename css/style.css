@@ -66,6 +66,10 @@ body{
 }
 
 @media (max-width: 768px){
+    .firstthing{
+        /* left: 200px;
+        position: relative; */
+    }
     .navbar-nav{
         left: 0px;
         position: static;
