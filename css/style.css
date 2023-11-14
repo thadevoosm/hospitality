@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif !important;
+    overflow-x: hidden;
 }
 .nav-title{
     font-weight: 700 !important;
