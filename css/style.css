@@ -39,13 +39,30 @@ body{
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     font-size :3.25rem;;
-    width: 28rem;
+    width: 32.5rem;
     line-height: 3.125rem;
 }
 .homeHeadDiv{
     left: 7.5rem;
     top: 12.69rem;
     position: relative;
+}
+.homeHeadDiv p{
+    
+    width: 34.6875rem;
+    color: rgba(255, 255, 255, 0.71);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.75rem;
+}
+.homeHeadDiv button{
+    color: #fff;
+    background: #FFA542;
+    width: 10.3125rem;
+    height: 3.375rem;
+}
+.homeHeadDiv .btn{
+    --bs-btn-border-radius: 0;
 }
 
 @media (max-width: 768px){
@@ -73,5 +90,17 @@ body{
         left: 1.5rem;
         top: 5.76rem;
         position: relative;
+    }
+    .homeHeadDiv p{
+    
+        width: 19.375rem;
+        margin-top: 1.44rem;
+        color: rgba(255, 255, 255, 0.71);
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 1.3125rem; /* 131.25% */
+    }
+    .homeHeadDiv .btn{
+        margin-top: 1.44rem;
     }
 }
