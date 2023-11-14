@@ -1,9 +1,77 @@
+
 body{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Ubuntu', sans-serif !important;
 }
 .nav-title{
     font-weight: 700 !important;
 }
 .bg-body-tertiary{
     --bs-bg-opacity: 0 !important;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end !important;
+}
+.navbar-nav{
+    left: 40px;
+    position: relative;
+}
+.navbar-nav a{
+    color: #fff !important;
+}
+.navbar-toggler{
+    border: #fff !important;
+    color: #fff !important;
+}
+.navbar-toggler-icon{ 
+    color: white !important;
+ }
+
+.firstthing{
+    background-image: url('../image/homeBg1st.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#contactButton{
+    margin-left: 5px;
+}
+.homeheading{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size :3.25rem;;
+    width: 28rem;
+    line-height: 3.125rem;
+}
+.homeHeadDiv{
+    left: 7.5rem;
+    top: 12.69rem;
+    position: relative;
+}
+
+@media (max-width: 768px){
+    .navbar-nav{
+        left: 0px;
+        position: static;
+    }
+    .navbar-expand-lg .navbar-collapse{
+        justify-content: center !important;
+    }
+    .imageText{
+        width: 150px;
+        height: auto;
+    }
+    #contactButton{
+        margin-left: 0px;
+    }
+    .homeheading{
+        
+        font-size :1.875rem;;
+        width: 20.4375rem;
+        line-height: 2.1875rem;
+    }
+    .homeHeadDiv{
+        left: 1.5rem;
+        top: 5.76rem;
+        position: relative;
+    }
 }
