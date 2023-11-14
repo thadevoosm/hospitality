@@ -35,6 +35,19 @@ body{
 #contactButton{
     margin-left: 5px;
 }
+.homeheading{
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size :3.25rem;;
+    width: 28rem;
+    line-height: 3.125rem;
+}
+.homeHeadDiv{
+    left: 7.5rem;
+    top: 12.69rem;
+    position: relative;
+}
+
 @media (max-width: 768px){
     .navbar-nav{
         left: 0px;
@@ -49,5 +62,16 @@ body{
     }
     #contactButton{
         margin-left: 0px;
+    }
+    .homeheading{
+        
+        font-size :1.875rem;;
+        width: 20.4375rem;
+        line-height: 2.1875rem;
+    }
+    .homeHeadDiv{
+        left: 1.5rem;
+        top: 5.76rem;
+        position: relative;
     }
 }
