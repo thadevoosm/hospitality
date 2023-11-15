@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif !important;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 .nav-title{
     font-weight: 700 !important;
@@ -44,6 +44,7 @@ body{
     line-height: 3.125rem;
 }
 .homeHeadDiv{
+    width: fit-content;
     left: 7.5rem;
     top: 12.69rem;
     position: relative;
@@ -65,11 +66,34 @@ body{
 .homeHeadDiv .btn{
     --bs-btn-border-radius: 0;
 }
+.aboutUs{
+    width: 100vw;
+}
+
+.aboutUsDiv{
+    left: 7.5rem;
+    top: 11.25rem;
+    position: relative;
+    flex-direction: row;
+    display: flex;
+    width: fit-content;
+}
+.aboutUsDiv img{
+    width: 36.5rem;
+    height: 27.5rem;
+    flex-shrink: 0;
+}
+.aboutUsDiv h3{
+    color: #FFA542;
+    margin-left: 6rem;
+}
+
 
 @media (max-width: 768px){
     .firstthing{
         /* left: 200px;*/
         position: relative; 
+        background-image: url('../image/HomeMobile.png');
     }
     .navbar-nav{
         left: 0px;
@@ -103,9 +127,32 @@ body{
         color: rgba(255, 255, 255, 0.71);
         font-size: 1rem;
         font-weight: 500;
-        line-height: 1.3125rem; /* 131.25% */
+        line-height: 1.3125rem; 
     }
     .homeHeadDiv .btn{
         margin-top: 1.44rem;
     }
+    .aboutUsDiv img{
+        width: 17rem;
+        height: auto;
+        flex-shrink: 0;
+    }
+    .aboutUsDiv{
+        left: 50%;
+        transform: translateX(-50%);
+        top: 3.31rem;
+        position: relative;
+        flex-direction: column;
+        display: flex;
+    }
+    .aboutUsDiv h3{
+        color: #FFA542;
+        margin-left: 0;
+        font-size: 1rem;
+        margin-top: 40px;
+        font-weight: 500;
+
+        
+    }
+    
 }
