@@ -76,7 +76,7 @@ body{
     position: relative;
 }
 .container-slide{
-    left: 7.5rem;
+    margin-left: 7.5rem;
     top: 13rem;
     position: relative;
 }
@@ -92,7 +92,7 @@ body{
     width: 40rem;
 }
 .aboutUsDiv{
-    left: 7.5rem;
+    margin-left: 7.5rem;
     top: 11.25rem;
     position: relative;
     flex-direction: row;
@@ -224,6 +224,7 @@ a .aboutUsH2{
         flex-shrink: 0;
     }
     .aboutUsDiv{
+        margin-left: 0;
         left: 50%;
         transform: translateX(-50%);
         top: 3.31rem;
@@ -273,7 +274,7 @@ a .aboutUsH2{
     }
     .container-slide{
         top: 6rem;
-        left: 0;
+        margin-left: 0;
     }
     .slide-wapper .image-list{
         display: grid;
