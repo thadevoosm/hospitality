@@ -76,6 +76,7 @@ body{
     position: relative;
 }
 .container-slide{
+    left: 7.5rem;
     top: 13rem;
     position: relative;
 }
@@ -272,6 +273,7 @@ a .aboutUsH2{
     }
     .container-slide{
         top: 6rem;
+        left: 0;
     }
     .slide-wapper .image-list{
         display: grid;
