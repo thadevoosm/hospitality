@@ -77,7 +77,7 @@ body{
 }
 .container-slide{
     margin-left: 7.5rem;
-    top: 13rem;
+    margin-top: 13rem;
     position: relative;
 }
 .slider-scrollbar{
@@ -173,8 +173,142 @@ a .aboutUsH2{
   .index-line-bar.active {
     background-color:  #FFA542;
   }
+  .subHeadDiv h3{ 
+    color: #FFA542;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-top: 8rem;
+    width: 100%;
+  }
+  .subHeadDiv{
+    width: 100%;
+    margin-bottom: 3.75rem;
+  }
+  .subHeadDiv h2{
+    text-align: center;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+  }
+  .image-listbottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
 
+  }
+  .image-listbottom .one-one{
+    width: 18.75rem;
+    height: 28.125rem;
+    /* margin-right: 2rem; */
+  }
+  .image-listbottom .rect-image{
+    width: 24.25rem;
+    height: 28.125rem;
+    flex-shrink: 0;
+    background: #060A2B;
+  }
+  .rect-image svg{
+    position: relative;
+    margin-top: 2.5rem;
+    margin-left: 1.5rem;
+  }
+  .rect-image .number-thing{
+    display: flex;
+    flex-direction: row;
+  }
+  .number-thing span{
+    width: 5rem;
+    height: 0rem;
+    flex-shrink: 0;
+    margin-top: 5rem;
+    stroke-width: 1.2px;
+    stroke: #FFF;
+  }
+  .rect-image h3{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    position: relative;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+  }
+  .rect-image h4{
+    color: rgba(255, 255, 255, 0.71);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    width: 20.875rem;
+    position: relative;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+  }
+  .rect-image a{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 4.25rem;
+  }
+  .rect-image .learn-more{
+    color: #FFA542;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    margin-top: 0;
+    margin-left: 01.5rem;
+    margin-bottom: .0;
+  }
+  a svg{
+    margin-top: 0 !important;
+    margin-left: 1rem !important;
+    align-items: center;
+  }
+  .image-listbottom .bottom-two{
+    width: 24.25rem;
+    height: 28.125rem;
+    gap: 0;
+  }
+  .image-listbottom .bottom-three{
+    width: 18.75rem;
+    height: 28.125rem;
+    flex-shrink: 0;
 
+  }
+  
+@media (max-width: 1024px){
+  .aboutUsDiv img{
+    width: 20rem;
+    height: auto;
+  }
+  .aboutUsDivContent{
+    margin-left: 2rem;
+  }
+  .image-listbottom .one-one{
+    width: 10.75rem;
+    height: auto;
+  }
+  .image-listbottom .rect-image{
+    width: 18.25rem;
+    height: auto;
+  }
+  .rect-image h4{
+    width:18rem ;
+  }
+  .image-listbottom .bottom-two{
+    width: 17.25rem;
+    height: auto;
+  }
+  .image-listbottom .bottom-three{
+    width: 16.75rem;
+    height: auto;
+  }
+
+}
 @media (max-width: 768px){
     .firstthing{
         /* left: 200px;*/
@@ -273,7 +407,7 @@ a .aboutUsH2{
         width: 18px ;
     }
     .container-slide{
-        top: 6rem;
+        margin-top: 6rem;
         margin-left: 0;
     }
     .slide-wapper .image-list{
@@ -318,6 +452,59 @@ a .aboutUsH2{
         background: #FFA542;
         border-radius: inherit;
       }
-    
+      .subHeadDiv{
+        width: 100%;
+      }
+      .subHeadDiv h3{ 
+        color: #FFA542;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 2.5rem;
+        width: 100%;
+      }
+      .subHeadDiv h2{
+       
+        color: #121212;
+        font-size: 1.3rem;
+        font-weight: 700;
+        line-height: 2.125rem; /* 141.667% */
+      }
+      .image-listbottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .image-listbottom .one-one{
+        width: 20.4375rem;
+        height: 23.6875rem;
+        flex-shrink: 0;
+      }
+      .image-listbottom .rect-image{
+        width: 20.4375rem;
+        height: auto;
+      }
+      .rect-image a{
+        margin-top:3.5rem;
+        margin-bottom: 2.5rem;
+      }
+      .image-listbottom .bottom-two{
+        width: 20.4375rem;
+      }
+      .image-listbottom .flexrow{
+        display: flex;
+        flex-direction: row;
+        gap: 0.9375rem;
+        margin-top: 1.5rem;
+      }
+      .image-listbottom .bottom-two{
+        width: 9.75rem;
+        height: 14.625rem;
+      }
+      .image-listbottom .bottom-three{
+        width: 9.75rem;
+        height: 14.625rem;
+      }
     
 }
