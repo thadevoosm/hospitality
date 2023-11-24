@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif !important;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 .nav-title{
     font-weight: 700 !important;
@@ -196,7 +196,7 @@ a .aboutUsH2{
   .image-listbottom{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100vw;
 
   }
@@ -279,6 +279,10 @@ a .aboutUsH2{
     flex-shrink: 0;
 
   }
+  .flexrow {
+    display: contents;
+}
+  
   
 @media (max-width: 1024px){
   .aboutUsDiv img{
