@@ -281,9 +281,92 @@ a .aboutUsH2{
   }
   .flexrow {
     display: contents;
+  }
+.contactushome {
+  margin-top: 10.25rem;
+  background: #F6F6F6;
+  padding-top: 6.5rem;
+  padding-bottom: 6.25rem;
+  position: relative;
 }
-  
-  
+.headingtwocontact{
+  margin-left: 7.5rem;
+  color: #FFA542;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.contactushome .contentconatct{
+  color: #121212;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.125rem; /* 125% */
+  width: 34.65rem;
+  margin-left: 7.5rem;
+}
+.contactushome .btn{
+  margin-left: 7.5rem;
+  margin-bottom: 2rem;
+  --bs-btn-border-radius: 0;
+  width: 10.3125rem;
+  height: 3.375rem;
+  border: 1.2px solid #FFA542;
+  --bs-btn-border-width: 1.5px;
+  --bs-btn-border-color:#FFA542;
+  --bs-btn-hover-bg:#ffa542;
+  --bs-btn-hover-color:#fff;
+}
+.contactushome .svgblack{
+  position: absolute;
+  right: 7.87rem;
+  bottom: 5.19rem;
+}
+.contactushome .svgviolet{
+  position: absolute;
+  right: 36.06rem;
+  bottom: 2.81rem;
+}
+.contactushome .svgorange{
+  position: absolute;
+  right: 32.94rem;
+  bottom: 19.44rem;
+}
+.footercomponet {
+  padding-top: 6.25rem;
+  height: 25.75rem;
+  background: #060A2B;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+ .footercomponet img{
+  width: 13.9375rem;
+  height: 4rem;
+  margin-left: 7.5rem;
+ } 
+ ul .foothead{
+  color: #FFF !important;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem !important;
+ }
+ .productsfoot{
+  height: fit-content;
+ }
+ .productsfoot ul a{
+  text-decoration: none;
+  color: #fff;
+ }
+ .productsfoot ul li{
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.71);
+ }
+ .last{
+  margin-right: 7.5rem;
+ }
 @media (max-width: 1024px){
   .aboutUsDiv img{
     width: 20rem;

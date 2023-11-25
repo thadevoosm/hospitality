@@ -1,61 +1,24 @@
-@media (max-width: 768px){
-    /* .slide-container{
-        display: flex;
-        overflow-x: hidden;
-        position: fixed;
-        top: 0;
-        bottom: 0;
-        right: 0;
-    }
-    .slide{
-        display: flex;
-        transition: transform 0,5s ease-in-out;
-    }
-    .slide-item{
-        min-width: 100%;
-        box-sizing: border-box;
-    }
-    .slide-item img {
-        width: 100%;
-        height: auto;
-      } */
-
-
-      .slide-wapper .image-list{
-        display: grid;
-        gap: 1.5rem;
-        grid-template-columns: repeat(2, 1fr);
-        padding-left: 50%;
-        overflow-x: auto;
-        scrollbar-width: none;
-        margin-bottom: 10px;
-      }
-      .slide-wapper .image-list::-webkit-scrollbar{
-        display: none;
-      }
-
-      .slide-wapper .image-list .image-item{
-        object-fit: cover;
-      }
-      .container .slider-scrollbar{
-        height: 20px;
-        width: 100%;
-        /* background: #FFA542; */
-        display: flex;
-        align-items: center;
-      }
-      .slider-scrollbar .scrollbar-track{
-        height: 5px;
-        width: 100%;
-        background: #F2F2F2;
-        position: relative;
-        border-radius: 5px;
-      }
-      .slider-scrollbar .scrollbar-thumb{
-        position: absolute;
-        height: 5px;
-        width: 50%;
-        background: #FFA542;
-        border-radius: inherit;
-      }
-}
+.subHeadDiv h3{color:#FFA542;text-align:center;font-size:1.125rem;font-weight:500;margin-top:8rem;width:100%}
+.subHeadDiv{width:100%;margin-bottom:3.75rem}
+.subHeadDiv h2{text-align:center;font-weight:700;text-align:center;color:black;font-size:2.5rem;line-height:3.125rem}
+.image-listbottom{display:flex;flex-direction:row;justify-content:space-between;width:100vw}
+.image-listbottom .one-one{width:18.75rem;height:28.125rem}
+.image-listbottom .rect-image{width:24.25rem;height:28.125rem;flex-shrink:0;background:#060A2B}
+.rect-image svg{position:relative;margin-top:2.5rem;margin-left:1.5rem}
+.rect-image .number-thing{display:flex;flex-direction:row}
+.number-thing span{width:5rem;height:0rem;flex-shrink:0;margin-top:5rem;stroke-width:1.2px;stroke:#FFF}
+.rect-image h3{color:#fff;font-size:1.5rem;font-weight:700;position:relative;margin-top:1.5rem;margin-left:1.5rem}
+.rect-image h4{color:rgba(255,255,255,0.71);font-size:1rem;font-weight:400;line-height:1.75rem;width:20.875rem;position:relative;margin-left:1.5rem;margin-top:1rem}
+.rect-image a{display:flex;flex-direction:row;height:fit-content;align-items:center;text-decoration:none;margin-top:4.25rem}
+.rect-image .learn-more{color:#FFA542;font-size:1rem;font-weight:500;position:relative;margin-top:0;margin-left:01.5rem;margin-bottom:.0}
+a svg{margin-top:0!important;margin-left:1rem!important;align-items:center}
+.image-listbottom .bottom-two{width:24.25rem;height:28.125rem;gap:0}
+.image-listbottom .bottom-three{width:18.75rem;height:28.125rem;flex-shrink:0}
+.flexrow {display:contents}
+.bottomsheetimage{display:flex;flex-direction:column;align-content:center;flex-wrap:wrap;height:fit-content}
+.bottomsheetimage .bottomimagelast{width:75rem;height:37.5rem;margin-top:11.25rem}
+.rect-text {position:relative;top:-24rem;width:37.5rem;height:24rem;background:#060A2B;flex-shrink:0;display:flex;flex-direction:column;justify-content:space-between}
+.rect-text h2{padding-top:3.75rem;margin-left:1.5rem;width:28.75rem;color:#FFF;font-size:2.5rem;font-weight:500;line-height:3.125rem}
+.bottomButton:hover{color:#121212;background:#ffc107}.rect-text .btn{--bs-btn-border-radius:0;color:#fff;background:#FFA542;width:12.5rem;height:4.5rem;bottom:0;position:relative}
+.contactushome {background:#F6F6F6;top:-11.25rem;position:relative}
+.headingtwocontact{margin-top:6.25rem;margin-left:7.5rem;color:#FFA542;}
