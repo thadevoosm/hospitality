@@ -281,9 +281,131 @@ a .aboutUsH2{
   }
   .flexrow {
     display: contents;
+  }
+.contactushome {
+  margin-top: 10.25rem;
+  background: #F6F6F6;
+  padding-top: 6.5rem;
+  padding-bottom: 6.25rem;
+  position: relative;
 }
-  
-  
+.headingtwocontact{
+  margin-left: 7.5rem;
+  color: #FFA542;
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: normal;
+}
+.contactushome .contentconatct{
+  color: #121212;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.125rem; /* 125% */
+  width: 34.65rem;
+  margin-left: 7.5rem;
+}
+.contactushome .btn{
+  margin-left: 7.5rem;
+  margin-bottom: 2rem;
+  --bs-btn-border-radius: 0;
+  width: 10.3125rem;
+  height: 3.375rem;
+  border: 1.2px solid #FFA542;
+  --bs-btn-border-width: 1.5px;
+  --bs-btn-border-color:#FFA542;
+  --bs-btn-hover-bg:#ffa542;
+  --bs-btn-hover-color:#fff;
+}
+.contactushome .svgblack{
+  position: absolute;
+  right: 7.87rem;
+  bottom: 5.19rem;
+}
+.contactushome .svgviolet{
+  position: absolute;
+  right: 36.06rem;
+  bottom: 2.81rem;
+}
+.contactushome .svgorange{
+  position: absolute;
+  right: 32.94rem;
+  bottom: 19.44rem;
+}
+.footercomponet {
+  padding-top: 6.25rem;
+  height: fit-content;
+  background: #060A2B;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+ .footercomponet img{
+  width: 13.9375rem;
+  height: 4rem;
+  margin-left: 7.5rem;
+ } 
+ ul .foothead{
+  color: #FFF !important;
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem !important;
+ }
+ .productsfoot{
+  height: fit-content;
+ }
+ .productsfoot ul a{
+  text-decoration: none;
+  color: #fff;
+ }
+ .productsfoot ul li{
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.71);
+ }
+ .last{
+  margin-right: 7.5rem;
+ }
+ .lineinend{
+  height: fit-content;
+  background: #060A2B;
+ }
+ .lineinend span{
+  display: block;
+  width: 100vw;
+  border-top: 1px solid #ccc;
+  opacity: 70%;
+ }
+ .lineinend .finalnote{
+  color: #FFF;
+  opacity: 70%;
+  width: 32.15rem;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  margin-left: 7.5rem;
+  margin-bottom: 0;
+
+ }
+.lineinend .finalredirects ul{
+  text-decoration: none;
+  list-style-type: none;
+  margin-bottom: 0;
+  display: flex;
+  margin-right: 7.5rem;
+}
+.lineinend .finalredirects ul li{
+  margin: 2px;
+}
+.lineinend .flexedfoot{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  justify-content: space-between;
+}
 @media (max-width: 1024px){
   .aboutUsDiv img{
     width: 20rem;
@@ -510,5 +632,70 @@ a .aboutUsH2{
         width: 9.75rem;
         height: 14.625rem;
       }
-    
+      .contactushome .contentconatct {
+        color: #121212;
+        font-size: 1.5rem;
+        font-weight: 700;
+        line-height: 1.9rem;
+        width: 20.37rem;
+        margin-left: 1.5rem;
+      }
+      .headingtwocontact {
+        margin-left: 1.5rem;
+        font-size: 1rem;
+      }
+      .contactushome .btn{
+        margin-left: 1.5rem;
+        margin-top: 2rem;
+      }
+      .contactushome .svgviolet{
+        position: absolute;
+        right: 21.06rem;
+        bottom: 2.81rem;
+      }
+      .contactushome .svgorange{
+        position: absolute;
+        right: 3.0660rem;
+        bottom: 12.81rem;
+      }
+      .footercomponet{
+        padding-top: 2.25rem;
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        justify-items: start;
+      }
+      .footercomponet img{
+        grid-row-start: 1;
+        grid-row-end:2;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin-left:0;
+        justify-self: center;
+      }
+      .footercomponet .last{
+        margin-right: 0;
+      }
+      .lineinend .flexedfoot{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+      }
+      .lineinend .finalnote{
+        width: 19.81rem;
+        margin-left: 0;
+        font-size: 1rem;
+        line-height: 1.75rem;
+      }
+      .lineinend .finalredirects ul {
+        margin-top: 1.5rem;
+        margin-right: 0;
+      }
+      .lineinend .finalredirects{
+        align-self: flex-start;
+      }
 }
