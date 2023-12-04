@@ -440,7 +440,184 @@ section .oneaboutus{
   font-weight: 400;
   line-height: 1.75rem;
   margin-right: 5rem;
+}
+.aboutusoneimg{
+  display:flex;
+  width: 82.5rem;
+  height: 24.6875rem;
+  margin-left: 7.5rem;
+  margin-top: 1.56rem;
+}
+.aboutustwo{
+  margin-top: 8.06rem;
+  background: rgba(253, 248, 241, 0.80);
+  height: fit-content; 
+  width: 100%;
+}
+.aboutustwo-contentone{
+margin-left: 7.5rem;
+width: fit-content;
+padding-top: 5rem;
+}
+.aboutustwo-contentone-flex{
+  display: flex;
+}
+.aboutustwo-contentone span{
+  display: block;
+  width: 0.125rem;
+  height: 1.625rem;
+  background: #FFA542;
+  margin-right: 1.2rem;
+}
+.aboutustwo-contentone h3{
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.aboutustwo-contentone h5{
+  font-size: 1rem;
+  line-height: 1.25rem; /* 125% */
+  width: 32.5rem;
+}
+.aboutustwoimgtext{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.aboutustwoimgtext img{
+  width: 37.5rem;
+  height: 37.5rem;
+  padding-right: 4.5rem;
+  padding-top: 7.5rem;
 
+}
+.threestepdiv{
+  margin-top: 10rem;
+}
+.rectanglestep{
+  margin-left: 7.5rem;
+  width: 37.5rem;
+  height: 10rem;
+  background: #FFEAD4;
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+}
+.rectanglestep svg{
+  align-self: center;
+  transform: translateX(-25px);
+}
+.rectanglestep svg circle{
+  z-index: 3;
+  margin-left: -25px;
+}
+.rectanglestep svg text{
+  fill: black;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.rectanglestep h3{
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.rectanglestep h5{
+  font-size: 1rem;
+  font-style: normal;
+  line-height: normal;
+  width: 33.125rem;
+}
+.item-rect-about{
+  display: flex;
+  flex-direction: column;
+}
+.threestepdiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.threesteprightdiv{
+  position: relative;
+}
+.embarkstepthree{
+  display: flex;
+  margin-right: 3.88rem;
+  gap: 2rem;
+  align-items: center;
+}
+.embarkstepthree span{
+  width: 2px;
+  height: 9.375rem;
+  stroke-width: 2px;
+  stroke: #FFA542;
+  background-color: #FFA542;
+}
+.embarkstepthree h3{
+  font-size: 1.875rem !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  width: 25.8125rem !important;
+  color: black !important;
+}
+.rightstepaboutstart>h3{
+  color: #FFA542;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.aboutusstepcontact{
+  padding-top: 17rem;
+}
+.aboutusstepcontact a{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.aboutusstepcontact a h3{
+  color: #FFA542;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.threesteprightdiv .aboutUsorange{
+  display: block;
+  width: 6.25rem;
+  height: 6.25rem;
+  background-color: #FFA542;
+  border-radius: 50%;
+  position: absolute;
+  right: 3.88rem;
+  top: 10.63rem;
+}
+.threesteprightdiv .aboutUsblack{
+  display: block;
+  width: 3.125rem;
+  height: 3.125rem;
+  background-color: #060A2B;
+  border-radius: 50%;
+  position: absolute;
+  top: 19.25rem;
+  left: 3.5rem;
+}
+.threesteprightdiv .aboutUsviolet{
+  display: block;
+  width: 1.625rem;
+  height: 1.625rem;
+  background-color: #9871F9;
+  border-radius: 50%;
+  position: absolute;
+  right: 12.2rem;
+  top: 25.6rem;
+}
+.onemarginbottom{
+  margin-bottom: 1rem;
 }
 @media (max-width: 1024px){
   .aboutUsDiv img{
@@ -733,5 +910,117 @@ section .oneaboutus{
       }
       .lineinend .finalredirects{
         align-self: flex-start;
+      }
+      section .oneaboutus{
+        margin-top: 4.6rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: center;
+      }
+      .oneaboutus h1 {
+        margin-left: 0rem;
+        font-size: 2.5rem;
+        width: fit-content;
+      }
+      .oneaboutus h4{
+        width: 20.16rem;
+        font-size: 1rem;
+        margin-right: 0;
+      }
+      .aboutusoneimg{
+        display:flex;
+        width: 22.25rem;
+        height: 12.4375rem;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-left: 0;
+      }
+      .aboutustwoimgtext{
+        flex-direction: column;
+        align-items: center
+      }
+      .aboutustwo-contentone{
+        margin-left: 0;
+      }
+      .aboutustwo-contentone h3{
+        font-size: 1.375rem;
+      }
+      .aboutustwo-contentone h5{
+        width: 22rem;
+      }
+      .aboutustwoimgtext img{
+        width: 18.75rem;
+        height: 18.75rem;
+        padding-right: 0;
+        padding-top:0;
+        margin-bottom: 2rem;
+      }
+      .threestepdiv{
+        flex-direction: column-reverse;
+        align-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+      }
+      .rightstepaboutstart{
+        width: 100vw;
+      }
+      .embarkstepthree{
+        gap: 0.5rem;
+        margin-right: 0;
+        justify-content: center;
+      }
+      .embarkstepthree h3{
+        font-size: 1.375rem !important;
+        width: 18rem !important;
+        
+      }
+      .rightstepaboutstart>h3{
+        width: fit-content;
+      }
+      .rectanglestep{
+        margin-left: 0;
+        width: 21.75rem;
+        height: fit-content;
+        flex-wrap: nowrap;
+        border-radius: 5%;
+      }
+      .rectanglestep h5{
+        width: 20.25rem;
+      }
+      .threesteprightdiv .aboutUsorange{
+        width: 2.9375rem;
+        height: 2.9375rem;
+      }
+      .threesteprightdiv .aboutUsblack{
+        height: 1.75rem;
+        width: 1.75rem;
+        top: 14rem;
+      }
+      .threesteprightdiv .aboutUsviolet{
+        width: 0.75625rem;
+        height: 0.75625rem;
+        top: 18.6rem;
+      }
+      .aboutusstepcontact{
+        padding-top: 10rem;
+        padding-bottom: 2rem;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        width: fit-content;
+      }
+      .aboutusstepcontact a{
+        width: fit-content;
+      }
+      .rectanglestep svg{
+        display: none;
+      }
+      .item-rect-about{
+        margin: 1rem;
+      }
+      .aboutusstepcontact a h3{
+        font-size: 1.5rem
       }
 }
