@@ -17,7 +17,7 @@ body{
     position: relative;
 }
 .navbar-nav a{
-    color: #fff !important;
+    color: #fff !important ;
 }
 .navbar-toggler{
     border: #fff !important;
@@ -405,6 +405,42 @@ a .aboutUsH2{
   padding-top: 2rem;
   padding-bottom: 1rem;
   justify-content: space-between;
+}
+.footcomp{
+  margin: 0;
+  padding-bottom: 2rem;
+  padding-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  color: #FFF;
+  opacity: 70%;
+}
+.footcomp a{
+  text-decoration: none;
+  color: #FFF;
+}
+section .oneaboutus{
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+.oneaboutus h1{
+  width: 33.375rem;
+  margin-left: 7.5rem;
+  font-size: 3.25rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.oneaboutus h4{
+  width: 34.6875rem;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+  margin-right: 5rem;
+
 }
 @media (max-width: 1024px){
   .aboutUsDiv img{

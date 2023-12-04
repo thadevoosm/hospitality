@@ -13,6 +13,20 @@
     </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <style>
+        a#navHome{
+            border-bottom: 2px solid #fff;
+            transition: border-bottom 0.5s ease-in;
+        }
+        a#navHome:active{
+            border-bottom: none;
+        }
+        @media(max-width:768px){
+            a#navHome{
+                border-bottom: none;
+            }
+        }
+    </style>
 </head>
 <body>
     <section>
@@ -29,9 +43,9 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link active" href="test.html">About Us</a>
-              <a class="nav-link active" href="#">Products</a>
+              <a class="nav-link active" aria-current="page" id="navHome" href="#">Home</a>
+              <a class="nav-link active" href="aboutUs.html">About Us</a>
+              <a class="nav-link active" href="test.html">Products</a>
               <a class="nav-link active" href="#">Services</a>
               <a class="nav-link active" href="#">Career</a>
               <a class="nav-link active" href="#">Supplier Registration</a>
@@ -71,7 +85,7 @@
         of top-tier products reflects our commitment to 
         excellence.
     </p>
-    <a href="#">
+    <a href="aboutUs.html">
     <h2 class="aboutUsH2">
         LEARN MORE
         <svg xmlns="http://www.w3.org/2000/svg" width="23" height="auto" viewBox="0 0 18 16" fill="none">
@@ -122,7 +136,7 @@
                     in every product, ensuring top-tier quality 
                     that exceeds customer expectations.
                 </h4>
-                <a href="">
+                <a href="aboutUs.html">
                 <h3 class="learn-more">
                     LEARN MORE
                 </h3>
@@ -156,7 +170,7 @@
               </svg>
         </div>
         <div class="footercomponet">
-            <img src="image/Logo_Hospiytality.png" >
+            <img src="image/logowhite.png" >
             <div class="productsfoot">
                 <ul>
                 <li class="foothead">Our Products</li>
@@ -226,6 +240,7 @@
             </ul>
         </div>
         </div>
+        <p class="footcomp">Website build and maintained by&nbsp;<a href="https://eyeson.in/">Eyeson Solutions</a></p>
     </div>
         <!-- <footer>
             
