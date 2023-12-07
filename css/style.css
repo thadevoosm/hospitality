@@ -619,6 +619,141 @@ padding-top: 5rem;
 .onemarginbottom{
   margin-bottom: 1rem;
 }
+.productone{
+  padding-top: 6rem;
+}
+.productone-head{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.productone-head>h2{
+  justify-items: center;
+  color: #000;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.125rem; /* 125% */
+  width: 70.6875rem;
+}
+.productone-head>h4{
+  padding-top: 3.5rem;
+  color: #FFA542;
+  text-align: center;
+  font-size: 2.1875rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.125rem; /* 142.857% */
+}
+.productone-namehead{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 4.5rem;
+}
+.productone-namehead h3{
+  color: #000;
+  text-align: center;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.875rem;
+  width: 28.625rem;
+}
+.productone-namehead span{
+  width: 0.0625rem;
+  height: 12.5rem;
+  background-color: #000;
+}
+.productone img{
+  object-fit: cover;
+  padding-top: 4.3rem;
+  width: 75%;
+  height: 27rem;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.productlistdiv-1 h3{
+  padding-top: 6.5rem;
+  padding-bottom: 5rem;
+  color: #000;
+  text-align: center;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.875rem; /* 120% */
+}
+.product-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+.productlist-inner{
+  display: flex;
+  gap: 1.8rem;
+  align-items: center;
+}
+.productlist-inner img{
+  object-fit: none;
+  scale: 1;
+  width: 50px;
+  height: 50px;
+}
+.productlist-insider h3{
+  color: #000;
+  text-align:left;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.875rem;
+}
+.productlist-insider h4{
+  color: #000;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  width: 28.6875rem;
+}
+.productlastdiv-1{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.productlastdiv-1>h3{
+  width: 54rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem;
+  color: #060A2B;
+  text-align: center;
+  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.productlastdiv-1> .btn-warning{
+  --bs-btn-color: #000;
+  --bs-btn-bg: #FFA542;
+  --bs-btn-border-color: #FFA542;
+  --bs-btn-hover-color: #000;
+  --bs-btn-hover-bg: #FFA542;
+}
+.productlastdiv-1> .btn{
+  --bs-btn-border-radius:0;
+  width: 11.625rem;
+  height: 3.875rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.lastproducts{
+  padding-bottom: 5rem;
+}
 @media (max-width: 1024px){
   .aboutUsDiv img{
     width: 20rem;
@@ -1022,5 +1157,59 @@ padding-top: 5rem;
       }
       .aboutusstepcontact a h3{
         font-size: 1.5rem
+      }
+      .productone-head>h2{
+        width: 22.4375rem;
+        font-size: 1.25rem;
+        line-height: 1.875rem;
+      }
+      .productone-head>h4{
+        font-size: 1.5625rem;
+      }
+      .productone-namehead{
+        flex-direction: column;
+      }
+      .productone-namehead span{
+        height: 0.0625rem;
+        width: 12.5rem;
+        margin-top :2.5rem; 
+        margin-bottom: 2.5rem;
+      }
+      .productone-namehead h3{
+        width: 18.9375rem;
+        font-size: 1rem;
+        line-height: 1.25rem;
+      }
+      .product-grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+      .productone{
+        padding-top: 1rem;
+      }
+      .productlist-inner{
+        gap: 1rem;
+      }
+      .productlist-insider h4{
+        width: 19rem;
+        font-size: 0.875rem;;
+      }
+      .productlist-insider h3{
+        font-size: 1rem;
+      }
+      .productlistdiv-1 h3{
+        font-size: 1.125rem;
+        padding-bottom: 3rem;
+      }
+      .productlastdiv-1>h3{
+        font-size: 0.875rem;
+        width: 22.4375rem;
+      }
+      .productlastdiv-1> .btn{
+        width: 9rem;
+        height: 3rem;
+      }
+      .lastproducts{
+        padding-bottom: 3rem;
       }
 }
