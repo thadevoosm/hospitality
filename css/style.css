@@ -577,6 +577,7 @@ padding-top: 5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
 }
 .aboutusstepcontact a h3{
   color: #FFA542;
@@ -1377,6 +1378,6 @@ form .input-data {
       .thirdontact>iframe{
         width: 15rem;
         height: auto;
-        transform: translateX(-10%);
+        transform: translateX(-0%);
       }
 }
