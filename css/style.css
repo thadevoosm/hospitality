@@ -754,6 +754,141 @@ padding-top: 5rem;
 .lastproducts{
   padding-bottom: 5rem;
 }
+section .contactdiv{
+  display: flex;
+  flex-direction: row;
+}
+.contactdiv .contactLeft{
+  width: 33.3%;
+  background-color: #fff;
+  padding-top: 5rem;
+}
+.contactdiv .contactRight{
+  width: 66.66%;
+  background-color: #F6F6F6;
+  padding-top: 5rem;
+  padding-left: 4rem;
+}
+.anythingcontact {
+  margin-left: 3.5rem;
+  margin-bottom: 1.19rem;
+}
+form .input-data {
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+  margin-bottom :2rem;
+}
+.input-data input:focus{
+  outline: none;
+}
+.input-data input, .textarea textarea {
+  display: block;
+  width: 70%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0,0,0, 0.12);
+  background-color: transparent;
+}
+.input-data .underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+.input-data .underline:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 70%;
+  background: #3498db;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+.input-data label {
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.textarea label{
+  width: 100%;
+  bottom: 40px;
+  background: #fff;
+}
+.input-data input:focus ~ label, .textarea textarea:focus ~ label,
+.input-data input:valid ~ label, .textarea textarea:valid ~ label{
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: #3498db;
+}
+.input-data label{
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before{
+  transform: scale(1);
+}
+.submit-btn .input-data input{
+  background: none;
+  border: 1px solid black;
+  color: #000;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  width: fit-content;
+}
+.formheading>h3{
+  width: 35.125rem;
+  color: #444;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.formheading>h6{
+  color: #444;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 3rem;
+}
+.anythingcontact>h3{
+  font-size: 1rem;
+  font-weight: 700;
+}
+.anythingcontact>h4{
+  font-size: 0.875rem;
+  width: 13rem;
+  margin-left: 0.5rem;
+  margin-top: 0.75rem;
+}
+.contacticon a{
+  display:inline-block;
+  width: fit-content;
+}
+.contacticon a img{
+  height: 2.5rem;
+  width: auto;
+}
+.thirdontact>iframe{
+  width: 20rem;
+  height: 15rem;
+  margin-top: 1.19rem;
+}
 @media (max-width: 1024px){
   .aboutUsDiv img{
     width: 20rem;
@@ -1211,5 +1346,37 @@ padding-top: 5rem;
       }
       .lastproducts{
         padding-bottom: 3rem;
+      }
+      section .contactdiv{
+        flex-direction: column-reverse;
+      }
+      .contactdiv .contactRight{
+        width: 100%;
+        padding-left: 0;
+      }
+      .formheading>h3{
+        width: 20rem;
+      }
+      .formheading>h6{
+        width: 19rem;
+      }
+      .formheading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+      }
+      .contactdiv .contactLeft{
+        width: 100%;
+        padding-top: 1rem;
+      }
+      .anythingcontact{
+        margin-left: 50%;
+        transform: translateX(-50%);
+      }
+      .thirdontact>iframe{
+        width: 15rem;
+        height: auto;
+        transform: translateX(-10%);
       }
 }
