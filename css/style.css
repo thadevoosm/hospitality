@@ -577,6 +577,7 @@ padding-top: 5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
 }
 .aboutusstepcontact a h3{
   color: #FFA542;
