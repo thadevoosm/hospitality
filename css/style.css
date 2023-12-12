@@ -308,8 +308,8 @@ a .aboutUsH2{
   margin-left: 7.5rem;
   margin-bottom: 2rem;
   --bs-btn-border-radius: 0;
-  width: 10.3125rem;
-  height: 3.375rem;
+  width:8rem;
+  height: auto;
   border: 1.2px solid #FFA542;
   --bs-btn-border-width: 1.5px;
   --bs-btn-border-color:#FFA542;
@@ -332,7 +332,7 @@ a .aboutUsH2{
   bottom: 19.44rem;
 }
 .footercomponet {
-  padding-top: 6.25rem;
+  padding-top: 4rem;
   height: fit-content;
   background: #060A2B;
   display: flex;
@@ -361,7 +361,7 @@ a .aboutUsH2{
  .productsfoot ul li{
   text-decoration: none;
   list-style-type: none;
-  margin-bottom: 1rem;
+  margin-bottom: 0.3rem;
   color: rgba(255, 255, 255, 0.71);
  }
  .last{
@@ -380,9 +380,9 @@ a .aboutUsH2{
  .lineinend .finalnote{
   color: #FFF;
   opacity: 70%;
-  width: 32.15rem;
-  font-size: 1rem;
-  line-height: 1.75rem;
+  width: 20.15rem;
+  font-size: 0.8rem;
+  line-height: 1.0rem;
   margin-left: 7.5rem;
   margin-bottom: 0;
 
@@ -441,11 +441,13 @@ section .oneaboutus{
   line-height: 1.75rem;
   margin-right: 5rem;
 }
+.aboutusImg{
+  display: flex;
+  justify-content: center;
+}
 .aboutusoneimg{
-  display:flex;
-  width: 82.5rem;
-  height: 24.6875rem;
-  margin-left: 7.5rem;
+  width: 56rem;
+  height: auto;
   margin-top: 1.56rem;
 }
 .aboutustwo{
@@ -890,6 +892,20 @@ form .input-data {
   height: 15rem;
   margin-top: 1.19rem;
 }
+
+@media (max-width: 1125px){
+  .productone-head>h2{
+    width: 50.6875rem;
+    font-size: 2.0rem;
+  }
+  .productlist-inner{
+    gap: 0.5rem;
+  }
+  .productlist-insider h4{
+    width: 22rem;
+  }
+}
+
 @media (max-width: 1024px){
   .aboutUsDiv img{
     width: 20rem;
@@ -1172,8 +1188,6 @@ form .input-data {
       .lineinend .finalnote{
         width: 19.81rem;
         margin-left: 0;
-        font-size: 1rem;
-        line-height: 1.75rem;
       }
       .lineinend .finalredirects ul {
         margin-top: 1.5rem;
@@ -1201,17 +1215,17 @@ form .input-data {
         margin-right: 0;
       }
       .aboutusoneimg{
-        display:flex;
-        width: 22.25rem;
-        height: 12.4375rem;
+        width: 24rem;
+        height: auto;
         position: relative;
-        left: 50%;
-        transform: translateX(-50%);
         margin-left: 0;
       }
       .aboutustwoimgtext{
         flex-direction: column;
         align-items: center
+      }
+      .aboutustwo{
+        margin-top: 5rem;
       }
       .aboutustwo-contentone{
         margin-left: 0;
@@ -1274,6 +1288,9 @@ form .input-data {
         width: 0.75625rem;
         height: 0.75625rem;
         top: 18.6rem;
+      }
+      .threestepdiv{
+        margin-top: 5rem;
       }
       .aboutusstepcontact{
         padding-top: 10rem;
