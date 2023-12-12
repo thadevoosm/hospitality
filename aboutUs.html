@@ -21,9 +21,11 @@
         a#navAbout:active{
             border-bottom: none;
         }
-        
-         .navbar-nav a{
-            color: #000000 !important;
+        .navbar-nav a{
+            color: #000 !important ;
+        }
+        .navbar-nav a:hover{
+            color: #ffffff !important ;
         }
         .navbar-toggler{
             border: #000000 !important;
@@ -35,6 +37,10 @@
         .btn-outline-light{
             --bs-btn-border-color: #000;
             --bs-btn-color: #000;
+           
+        }
+        .btn-outline-dark{
+            --bs-btn-hover-bg: #000 !important;
         }
         @media(max-width:768px){
             a#navAbout{
@@ -48,8 +54,8 @@
             <div class="onecontainAboutUs" style="background-color: #fff;">
    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
     <div class="container">
-        <a class="navbar-brand" href="#">
-            <img class="imageText"src="image/logowhite.png" alt="Logo " width="200px" height="auto">
+        <a class="navbar-brand" href="index.html">
+            <img class="imageText"src="image/Logo_Hospiytality_black.png" alt="Logo " width="200px" height="auto">
             <!-- <span class="nav-title">Hospitality</span> -->
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-theme="light" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,7 +87,9 @@
                 span across Oman, the United Kingdom, Qatar, and India
             </h4>
         </div>
-        <img class="aboutusoneimg"src="image/about1st.jpeg">
+        <div class="aboutusImg">
+        <img class="aboutusoneimg"src="image/aboutus2.png">
+        </div>
     </section>
     <section class="aboutustwo">
     <div class="aboutustwoimgtext">
@@ -234,17 +242,16 @@
         <div class="productsfoot">
             <ul>
             <li class="foothead">Our Products</li>
-            <a href=""> <li>FMCG Products</li></a>
-            <a href=""><li> Hospiality Products</li></a>
+            <a href="products.html#FMCG"> <li>FMCG Products</li></a>
+            <a href="products.html#Hospitality"><li> Hospiality Products</li></a>
             <a href=""><li></li></a>
         </ul>
         </div>
         <div class="productsfoot">
             <ul>
             <li class="foothead">About Us</li>
-            <a href=""> <li>Contact Us</li></a>
-            <a href=""><li> Our People</li></a>
-            <a href=""><li>Carrers</li></a>
+            <a href="contact.html"> <li>Contact Us</li></a>
+            <a href="aboutUs.html"><li> Our People</li></a>
         </ul>
         </div>
         <div class="productsfoot last">
@@ -252,7 +259,7 @@
             <li class="foothead">Info</li>
             <a href=""> <li>Privacy Policy</li></a>
             <a href=""><li> Terms and Conditions</li></a>
-            <a href=""><li>Help</li></a>
+            <a href="contact.html"><li>Help</li></a>
         </ul>
         </div>
     </div>
