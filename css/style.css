@@ -15,6 +15,7 @@ body{
 .navbar-nav{
     left: 40px;
     position: relative;
+    gap:1rem;
 }
 .navbar-nav a{
     color: #fff !important ;
@@ -40,7 +41,7 @@ body{
     font-weight: 700;
     color: hsl(0, 0%, 100%);
     font-size :3.25rem;;
-    width: 32.5rem;
+    width: 52rem;
     line-height: 3.125rem;
 }
 .homeHeadDiv{
@@ -90,6 +91,7 @@ body{
 }
 .image-list img{
     width: 40rem;
+    height: 27.5rem;
 }
 .aboutUsDiv{
     margin-left: 7.5rem;
@@ -444,6 +446,19 @@ section .oneaboutus{
 .aboutusImg{
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutusImg p{
+  margin-top: 2rem;
+  width: 65%;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.aboutusImg h3{
+  font-weight: 700;
+  margin-top: 2rem;
 }
 .aboutusoneimg{
   width: 56rem;
@@ -944,6 +959,7 @@ form .input-data {
     .navbar-nav{
         left: 0px;
         position: static;
+        gap: 0.75rem;
     }
     .navbar-expand-lg .navbar-collapse{
         justify-content: center !important;
@@ -1047,6 +1063,7 @@ form .input-data {
       }
       .image-list img{
         width: auto;
+        height: 20rem;
     }
       .slide-wapper .image-list::-webkit-scrollbar{
         display: none;
@@ -1213,12 +1230,18 @@ form .input-data {
         width: 20.16rem;
         font-size: 1rem;
         margin-right: 0;
+        text-align: center;
       }
       .aboutusoneimg{
         width: 24rem;
         height: auto;
         position: relative;
         margin-left: 0;
+      }
+      .aboutusImg p{
+        font-size: 1rem;
+        width: 85%;
+        margin-top: 1.1rem;
       }
       .aboutustwoimgtext{
         flex-direction: column;
