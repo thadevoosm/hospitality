@@ -336,7 +336,7 @@ a .aboutUsH2{
 .footercomponet {
   padding-top: 4rem;
   height: fit-content;
-  background: #060A2B;
+  background: #f8f8f8;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -348,7 +348,7 @@ a .aboutUsH2{
   margin-left: 7.5rem;
  } 
  ul .foothead{
-  color: #FFF !important;
+  color: #000000 !important;
   font-size: 1.125rem;
   font-weight: 700;
   margin-bottom: 1.5rem !important;
@@ -358,29 +358,29 @@ a .aboutUsH2{
  }
  .productsfoot ul a{
   text-decoration: none;
-  color: #fff;
+  color: #292929;
  }
  .productsfoot ul li{
   text-decoration: none;
   list-style-type: none;
   margin-bottom: 0.3rem;
-  color: rgba(255, 255, 255, 0.71);
+  color: #292929;
  }
  .last{
   margin-right: 7.5rem;
  }
  .lineinend{
   height: fit-content;
-  background: #060A2B;
+  background: #f8f8f8;
  }
  .lineinend span{
   display: block;
   width: 100vw;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #000000;
   opacity: 70%;
  }
  .lineinend .finalnote{
-  color: #FFF;
+  color: #111111;
   opacity: 70%;
   width: 20.15rem;
   font-size: 0.8rem;
@@ -416,12 +416,12 @@ a .aboutUsH2{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: center;
-  color: #FFF;
+  color: #111;
   opacity: 70%;
 }
 .footcomp a{
   text-decoration: none;
-  color: #FFF;
+  color: #111;
 }
 section .oneaboutus{
   margin-top: 8rem;
@@ -1261,7 +1261,7 @@ form .input-data {
       .contactushome .svgorange{
         position: absolute;
         right: 3.0660rem;
-        bottom: 12.81rem;
+        bottom: 10.81rem;
       }
       .footercomponet{
         padding-top: 2.25rem;
@@ -1507,5 +1507,60 @@ form .input-data {
         width: 15rem;
         height: auto;
         transform: translateX(-0%);
+      }
+
+      .gridservice{
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr ;
+      }
+      .serviceone{
+        margin-bottom: 4rem;
+      }
+      .oneservice{
+        flex-direction: column;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        align-items: center;
+      }
+      .twoservice{
+        flex-direction: column;
+        flex-direction: column;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        align-items: center;
+      }
+      .threeservice{
+        flex-direction: column;
+        flex-direction: column;
+        flex-direction: column;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        align-items: center;
+      }
+      .fourservice{
+        flex-direction: column;
+        flex-direction: column;
+        flex-direction: column;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        align-items: center;
+      }
+      .fiveservice{
+        flex-direction: column;
+        flex-direction: column;
+        flex-direction: column;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        align-items: center;
       }
 }
