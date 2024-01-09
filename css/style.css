@@ -993,7 +993,9 @@ form .input-data {
   background-color: #000;
   margin: 0 auto;
 }
-
+.heroimagecarrerr img{
+  width: 100%;
+}
 
 
 @media (max-width: 1125px){
