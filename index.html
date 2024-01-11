@@ -19,7 +19,7 @@
             transition: border-bottom 0.5s ease-in;
         }
         .navbar-nav a:hover{
-            color: rgb(17, 0, 255) !important;
+            color: rgb(92, 81, 252) !important;
         }
         a#navHome:active{
             border-bottom: none;
@@ -27,6 +27,13 @@
         @media(max-width:768px){
             a#navHome{
                 border-bottom: none;
+            }
+            .btn{
+             --bs-btn-bg:#000 !important;
+ 
+            }
+            .navbar-nav .btn{
+                color: #ffffff !important;
             }
         }
     </style>
@@ -52,7 +59,7 @@
               <a class="nav-link active" href="service.html">Services</a>
               <a class="nav-link active" href="carrers.html">Career</a>
               <!--<a class="nav-link active" href="#">Supplier Registration</a> -->
-            <a class="btn btn-outline-light" id="contactButton" href="contact.html">
+            <a class="btn btn-outline-light" id="contactButton" href="contact.html" style="@media(max-width:768px){color: #ffffff !important;}">
                 Contact Us
             </a>
     </div>

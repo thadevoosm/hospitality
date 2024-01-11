@@ -27,7 +27,10 @@ body{
 .navbar-toggler-icon{ 
     color: white !important;
  }
-
+ .btn-outline-light{
+ --bs-btn-hover-border-color: #000000 !important;
+ --bs-btn-border-color: #000000 !important;
+ }
 .firstthing{
     background-image: url('../image/index_img.jpg');
     background-repeat: no-repeat;
@@ -1172,7 +1175,6 @@ width: fit-content;
     
         width: 19.375rem;
         margin-top: 1.44rem;
-        color: rgba(255, 255, 255, 0.71);
         font-size: 1rem;
         font-weight: 500;
         line-height: 1.3125rem; 
