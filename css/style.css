@@ -1140,7 +1140,7 @@ width: fit-content;
     .firstthing{
         /* left: 200px;*/
         position: relative; 
-        background-image: url('../image/HomeMobile.png');
+        background-image: url('../image/index_img.jpg');
     }
     .navbar-nav{
         left: 0px;
