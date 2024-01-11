@@ -18,7 +18,7 @@ body{
     gap:1rem;
 }
 .navbar-nav a{
-    color: #fff !important ;
+    color: #0e0e0e !important ;
 }
 .navbar-toggler{
     border: #fff !important;
@@ -29,7 +29,7 @@ body{
  }
 
 .firstthing{
-    background-image: url('../image/homeBg1st.png');
+    background-image: url('../image/index_img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -39,7 +39,7 @@ body{
 }
 .homeheading{
     font-weight: 700;
-    color: hsl(0, 0%, 100%);
+    color: #000;
     font-size :3.25rem;;
     width: 52rem;
     line-height: 3.125rem;
@@ -53,7 +53,7 @@ body{
 .homeHeadDiv p{
     
     width: 34.6875rem;
-    color: rgba(255, 255, 255, 0.71);
+    color: #2a2a2a;
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.75rem;
@@ -996,7 +996,103 @@ form .input-data {
 .heroimagecarrerr img{
   width: 100%;
 }
+.openCarrer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 2.5rem;
+}
+.openCarrer h1{
+  text-align: center;
+  font-weight: bold;
+  display: none;
+}
+.openCarrer p{
+  width: 60%;
+  text-align: center;
+  font-size: 1.3rem;
 
+}
+.carrersdiv h1{
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+}
+.onehandcarrer{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+.jobrolediv{
+  padding: 10px 20px;
+  border: #000 2px solid;
+  height: auto;
+  border-radius: 10px;
+}
+.jobrolediv>h2{
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+.carrercontent{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.carrercontent svg{
+  height: 50px;
+  width: auto;
+}
+.carrercontent>.svg{
+  height: 50px;
+  width: auto;
+  font-size: 50px;
+}
+.carrercontent .innerdivcarrer{
+  display: flex;
+  flex-direction: column;
+}
+.innerdivcarrer .carrersspecofication{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+width: fit-content;
+}
+.carrersspecofication p{
+  font-size: 1.1rem;
+}
+.carrersspecofication .largeCarrer{
+  width: 30rem;
+}
+.applynowcarrers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.applynowcarrers h2{
+  font-weight: 700;
+  font-size: 1.9rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.applynowcarrers p{
+  text-align: center;
+}
+.applynowcarrers a{
+  font-size: 1.3rem;
+  color: #000;
+  transition: color ease-in 0.5s;
+}
+.applynowcarrers a:hover{
+  color: orangered;
+}
+.applynowcarrers .carrerfootnote{
+  margin-top: 5rem;
+}
 
 @media (max-width: 1125px){
   .productone-head>h2{
@@ -1565,4 +1661,25 @@ form .input-data {
         grid-row-end: 6;
         align-items: center;
       }
+      .openCarrer p{
+        width: 85%;
+        font-size: 1rem;
+      }
+      .onehandcarrer{
+        flex-direction: column;
+      }
+      .carrersspecofication .largeCarrer{
+        width: 15rem;
+      }
+      .jobrolediv{
+        margin: 10px;
+      }
+      .applynowcarrers .carrerfootnote{
+        margin: 1.5rem;
+      }
+}
+@media (max-width: 408px){
+  .carrersspecofication .largeCarrer{
+    width: 10rem;
+  }
 }
